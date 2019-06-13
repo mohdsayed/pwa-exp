@@ -1,0 +1,52 @@
+{
+  "name": "wp-decoupled",
+  "version": "1.0.0",
+  "description": "A WordPress decoupled application in React built with Next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+	"build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtCamp/wp-decoupled.git"
+  },
+  "keywords": [
+    "decoupled",
+    "react",
+    "next.js"
+  ],
+  "author": "Imran Sayed, Sayed Taqui, Divyaraj Masani, Muhammad Muhsin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtCamp/wp-decoupled/issues"
+  },
+  "engine": {
+    "node": "v8.12.0",
+    "npm": "6.4.1"
+  },
+  "homepage": "https://github.com/rtCamp/wp-decoupled#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.2",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-link-http": "^1.5.14",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "idb-keyval": "^3.2.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "next-offline": "^4.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "woocommerce-api": "^1.4.2"
+  },
+  "devDependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
